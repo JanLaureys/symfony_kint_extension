@@ -1,0 +1,6 @@
+services:
+  dev.kint_extension:
+      class: "AppBundle\\Twig\\KintExtension"
+      public: true
+      tags:
+        - { name: twig.extension }
